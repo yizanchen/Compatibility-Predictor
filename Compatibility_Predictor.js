@@ -38,9 +38,9 @@ function calculateScore( team, applicant ){
 //return the different of two Attributes with ratio to the total attributes
 function calculateAttributeScore(teamMemberAttribute, applicantAttribute, totalAttributes){
     //different of two attributes divide by 9 (max different between two attributes, 1 and 10) times the ratio of that attribute to total attributes
-    let AttributeScore = (Math.abs(teamMemberAttribute - applicantAttribute) / 9 * (teamMemberAttribute/totalAttributes) ); 
-    //console.log(`Attribute score : ${AttributeScore}`);
-    return AttributeScore;
+    let attributeScore = Math.abs(teamMemberAttribute - applicantAttribute) / 9 * (teamMemberAttribute/totalAttributes); 
+    //console.log(`Attribute score : ${attributeScore}`);
+    return attributeScore;
 }
 
 //return sum of attributes of a person
