@@ -17,10 +17,10 @@ Name it Input.JSON and save it in the same folder as Compatibility_predictor.js.
         {
             "name" : name,
             "attributes" : {
-                "intelligence" : integer 1 - 10,
-                "strength" : integer 1 - 10,
-                "endurance" : integer 1 - 10,
-                "spicyFoodTolerance" : integer 1 - 10
+                "intelligence" : integer [1-10],
+                "strength" : integer [1-10],
+                "endurance" : integer [1-10],
+                "spicyFoodTolerance" : integer [1-10]
             }
         }
     ],
@@ -28,10 +28,10 @@ Name it Input.JSON and save it in the same folder as Compatibility_predictor.js.
         {
             "name" : name,
             "attributes" : {
-                "intelligence" : integer 1 - 10,
-                "strength" : integer 1 - 10,
-                "endurance" : integer 1 - 10,
-                "spicyFoodTolerance" : integer 1 - 10
+                "intelligence" : integer [1-10],
+                "strength" : integer [1-10],
+                "endurance" : integer [1-10],
+                "spicyFoodTolerance" : integer [1-10]
             }
         }
     ]
